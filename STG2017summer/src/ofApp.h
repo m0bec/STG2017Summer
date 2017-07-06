@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "../GraphTitle.h"
 
 class ofApp : public ofBaseApp{
 
@@ -22,3 +23,9 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
 		
 };
+
+namespace Title
+{
+	static GraphTitle graph_title;
+	
+}
